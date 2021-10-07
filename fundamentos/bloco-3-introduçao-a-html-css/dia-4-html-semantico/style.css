@@ -1,0 +1,15 @@
+article {
+    display: block;
+}
+body {
+    font-size: 15px;
+}
+#foto-vis {
+width: 100px;
+height: 150px;
+
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+}
