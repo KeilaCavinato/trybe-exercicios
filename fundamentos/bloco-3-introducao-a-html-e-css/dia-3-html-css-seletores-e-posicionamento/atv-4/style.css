@@ -1,0 +1,43 @@
+.cor {
+  background-color: yellow;
+}
+li.impar {
+  text-transform: uppercase;
+}
+li.par {
+  color: green;
+}
+h1, h2, h3 {
+  color: red;
+}
+.borda {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 40px;
+}
+li {
+  font-size: 20px;
+}
+.azul {
+  color: blue;
+}
+.rosa {
+  background-color: palevioletred;
+}
+
+.laranja:hover {
+  background-color: orange;
+  font-weight: bolder;
+}
+.verde:hover {
+  background-color: green;
+  font-weight: bolder;
+}
+.preta:hover{
+  background-color: black;
+  font-weight: bolder;
+}
+.amarela:hover {
+  background-color: yellow;
+  font-weight: bolder;
+}

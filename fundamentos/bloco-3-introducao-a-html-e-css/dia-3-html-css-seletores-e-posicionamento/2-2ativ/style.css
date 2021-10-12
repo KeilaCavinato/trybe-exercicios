@@ -1,0 +1,47 @@
+div:hover {
+    width: 80%;
+   height:30px;
+   background-color:rgb(255, 0, 179);
+   outline:10px solid black;
+}
+.clara:hover {
+    width: 80%;
+   height:30px;
+   background-color: turquoise;
+   outline: 10px solid pink ;
+}
+.escura:hover {
+    width: 80%;
+   height:30px;
+   background-color: rgb(18, 43, 43);
+   outline: 10px solid rgb(65, 25, 31) ;
+}
+.primaria:hover {
+    width: 80%;
+    height:30px;
+    background-color: rgb (red, red);
+    outline: 10px solid blue;
+}
+.secundaria:hover {
+    width: 80%;
+   height:30px;
+   background-color: orange;
+   outline: 10px solid purple ;
+}
+.complementar:hover{
+    width: 80%;
+   height:30px;
+   background-color: green;
+   outline: 10px solid blue;
+   
+}
+
+h3 {
+    font-family:fantasy
+}
+.complementar {
+    font-size: 20px;
+}
+.primaria, .complementar, .clara {
+    font-style: italic;
+}
