@@ -1,0 +1,90 @@
+h1 {
+    text-align: center;
+  }
+
+  .first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 200px;
+    margin-left: 200px;
+    position: relative;
+    top: 50px;
+  }
+
+  .second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+    top: 50px;
+  }
+
+  .third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    width: 300px;
+    position: relative;
+    left: 305px;
+    
+  }
+  li {
+      list-style: none;
+  }
+  ul {
+      position: relative;
+      left: 100px;
+      
+      
+  }
+  .primeiro {
+      position: absolute;
+      left: 50px;
+      margin-bottom: 100px;
+      
+      width: 250px;
+      
+  }
+  .segundo {
+      position: absolute;
+      margin-top: 1px;
+      
+      width: 300x;
+      margin-left: 260px;
+  }
+.tres {
+    width: 250px;
+
+    margin-left: 300px;
+}
+.dois {
+    margin-top: 50px;
+}
+.primeiros {
+    
+    width: 250px;
+    top: ;
+}
+.segundos {
+    
+    width: 350px;
+    margin-left: 240px;
+    top: 1px;
+    position: absolute;
+}
+.terceiro {
+    
+    width: 250px;
+}
+.terceiros {
+    
+    width: 350px;
+    position: absolute;
+    left: 280px;
+    top: 1px;
+}
