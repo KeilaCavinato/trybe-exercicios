@@ -9,14 +9,15 @@ n = 5
 *****
 */
 let numeroLinha = 5;
-let altura = 5;
 let asterisco = '*';
 let resultado = '';
 
-
-for (let i = 0; i <= numeroLinha; i+ 1) {
-    
-    console.log(resultado)
-    resultado = resultado + asterisco + altura;
-
+for (let i = 0; i < numeroLinha; i += 1) {
+    resultado = resultado + asterisco;
 }
+for (let i = 0; i < numeroLinha; i += 1) {
+
+    console.log(resultado)
+}
+    
+
