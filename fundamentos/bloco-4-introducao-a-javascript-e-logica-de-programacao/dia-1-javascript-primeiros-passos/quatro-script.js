@@ -8,4 +8,5 @@ if (valor > 0) {
 } else {
     console.log('zero');
 }
-
+/*aqui, lembrar do exemplo do tiago meireles, com a regua, onde acima de 
+de zero numeros sao positivos, abaixo de zero sao negativos (> 0 e < 0).*/
