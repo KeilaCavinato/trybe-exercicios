@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>curriculo</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <form action="">
+    <div class="container">
+    <fieldset>
+    <label for="">Nome:</label><br>
+      <input type="text" required name="text" maxlength="40">
+      <br>
+      <label for="">Email:</label>
+      <input type="email" name="text" required maxlength="50">
+      <br>
+      <label for="">CPF:</label>
+      <input type="text" name="text" maxlength="11" required>
+      <br>
+      <label for="">Endereço:</label>
+      <input type="text" name="text" required maxlength="200">
+      <br>
+      <label for="">Cidade:</label>
+      <input type="text" name="text" required maxlength="28">
+      <br>
+      <label for="">Estado:</label>
+      <select name="estado" id="dropdown-estado" required>
+        <!--fazer via javascript-->
+        <option value="sp">São Paulo</option>
+        <option value="mg">Minas Gerais</option>
+        <option value="ba">Bahia</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="rs">Rio Grande do Sul</option>
+        <option value="am">Amazonas</option>
+        <option value="ac">Acre</option>
+      </select>
+      <br>
+      <label for="">Casa</label>
+      <input type="radio" name="text" required>
+      <label for="">Apartamento</label>
+      <input type="radio" name="text" required>
+    </fieldset>
+    <br>
+    <fieldset>
+      <textarea name="" id="" cols="30" rows="5" required maxlength="1000">Resumo do currículo:</textarea><br>
+      <label for="">Cargo:</label>
+      <input type="text" required maxlength="40"> <br>
+      <label for="">Descrição do Cargo:</label>
+      <input type="text" required maxlength="500"><br>
+      <label for="">Data de Início:</label>
+      <input type="date" required> <!--fazer via javasrip-->
+    </fieldset>
+  </form>
+  <button type="submit">Enviar</button>
+</div>
+  
+</body>
+</html>
